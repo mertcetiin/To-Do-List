@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: bisque;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+}
+
+#container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    min-height: 40%;
+}
+
+h1 {
+    font-size: 45px;
+    margin-top: 10px;
+    color: darkblue;
+    padding: 10px;
+}
+
+input {
+    font-size: 40px;
+    border-radius: 10px;
+    border: 3px solid black;
+    color: brown;
+}
+
+button {
+    font-size: 30px;
+    border: none;
+    padding: 12px;
+    border-radius: 15px;
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+
+#submit {
+    background-color: green;
+}
+
+#reset {
+    background-color: red;
+}
+
+span {
+    font-size: 70px;
+    margin-left: 20px;
+}
+
+.paragraph-styling {
+    margin: 0;
+    cursor: pointer;
+    font-size: 35px;
+    color: purple;
+    text-transform: capitalize;
+}
+
+#score {
+    color: darkblue;
+}
